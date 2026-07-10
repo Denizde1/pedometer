@@ -22,7 +22,7 @@ env/
 .env
 .env.*
 
-# SQLite
+# Database
 *.db
 *.sqlite3
 
@@ -33,52 +33,39 @@ env/
 # Android / Gradle
 # =========================
 .gradle/
-local.properties
-captures/
+android/.gradle/
 build/
 */build/
+android/build/
+android/app/build/
+captures/
+local.properties
+android/local.properties
 
 # APK / AAB
 *.apk
 *.aab
 *.ap_
 
-# Android Studio
+# Android Studio / IntelliJ
 .idea/
 *.iml
-
-# Kotlin
 .kotlin/
 
-# =========================
 # VS Code
-# =========================
 .vscode/
 
-# =========================
-# JetBrains
-# =========================
-.idea/
-
-# =========================
 # macOS
-# =========================
 .DS_Store
 
-# =========================
 # Linux
-# =========================
 *~
 
-# =========================
 # Windows
-# =========================
 Thumbs.db
 Desktop.ini
 
-# =========================
 # Secrets
-# =========================
 *.pem
 *.key
 *.crt
@@ -86,9 +73,13 @@ Desktop.ini
 *.jks
 keystore.properties
 
-# =========================
+# Uploads
+uploads/
+
+# Nextcloud
+*.sync-conflict-*
+
 # Misc
-# =========================
 .cache/
 tmp/
 temp/
