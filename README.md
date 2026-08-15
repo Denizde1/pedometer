@@ -1,4 +1,6 @@
 # Pedometer: Android app + FastAPI + PostgreSQL
+I don't want to maintain this project I was made this for fun. So, I will archive that if you want to use that use the forks (If any exists).
+
 
 ## Backend
 
